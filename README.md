@@ -7,3 +7,5 @@ Landing page for online bike rental service.
 - CSS3
 - Javascript
 - Flexbox
+# Notice
+- The cards in the "Latest News" section are generated components and are generated dynamically from JSON and passed using props.
