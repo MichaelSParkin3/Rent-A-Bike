@@ -1,0 +1,343 @@
+.bike-bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./imgs/bike1.jpg");
+  background-size: cover;
+  position: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.hero {
+  width: 100%;
+  z-index: 11; }
+  .hero h1 {
+    color: #fff;
+    font-size: 99px;
+    margin-bottom: 15px; }
+  .hero h4 {
+    color: #fff; }
+
+.dimmed {
+  content: ' ';
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6); }
+
+.nav-div nav {
+  margin-left: 19%;
+  margin-right: 19%;
+  position: absolute;
+  z-index: 99;
+  width: 64%;
+  background-color: transparent !important; }
+  .nav-div nav .active {
+    background-color: #03b2a1 !important; }
+  .nav-div nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: right;
+    margin-right: 0 !important;
+    margin-left: auto;
+    width: 70%; }
+    .nav-div nav ul li {
+      text-align: right; }
+  .nav-div nav a {
+    color: #fff !important;
+    font-weight: 700; }
+
+.landing-container {
+  margin-left: 19%;
+  margin-right: 19%; }
+
+.about {
+  background-color: #262626;
+  padding-left: 19%;
+  padding-right: 19%;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .about .about-card {
+    width: 20%; }
+  .about h2,
+  .about h5 {
+    color: #fff; }
+  .about .border {
+    margin-top: 20px;
+    width: 40px;
+    margin: 0 auto;
+    border-color: #03b2a1 !important;
+    border-width: 2px !important;
+    margin-top: 20px;
+    margin-bottom: 50px; }
+  .about .border2 {
+    margin-top: 20px;
+    width: 30px;
+    margin: 0 auto;
+    border-color: #03b2a1 !important;
+    border-width: 1.5px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: solid; }
+  .about .about-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .about i {
+    color: #03b2a1;
+    font-size: 50px;
+    border-radius: 100px;
+    border: 3px solid #03b2a1;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 15px; }
+  .about p {
+    width: 100%;
+    color: #fff; }
+
+.route {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 19%;
+  padding-right: 19%; }
+  .route button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .route .btn {
+    background-color: #03b2a1;
+    border: none;
+    border-radius: 0; }
+  .route .btn:focus {
+    outline: none !important; }
+  .route .border {
+    margin-top: 20px;
+    width: 40px;
+    margin: 0 auto;
+    border-color: #1e1e1e !important;
+    border-width: 2px !important;
+    margin-top: 20px;
+    margin-bottom: 50px; }
+  .route .route-title {
+    color: #1e1e1e; }
+  .route .routes-row-1 {
+    margin-bottom: 26px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .route .routes-row-1 .mountain-tour {
+      background-image: url(./imgs/mountain.jpg);
+      height: 13vw;
+      margin-right: 13px;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      -webkit-box-flex: 2;
+          -ms-flex-positive: 2;
+              flex-grow: 2;
+      -ms-flex-preferred-size: 0;
+          flex-basis: 0; }
+      .route .routes-row-1 .mountain-tour .layer span {
+        color: #fff;
+        background-color: #03b2a1;
+        position: relative;
+        top: 30px;
+        padding: 6px;
+        padding-left: 20px;
+        padding-right: 20px; }
+      .route .routes-row-1 .mountain-tour .layer .flexo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        height: 100%;
+        position: relative;
+        top: -25px; }
+      .route .routes-row-1 .mountain-tour .layer div {
+        color: #fff;
+        margin: 0 auto;
+        font-size: 30px; }
+    .route .routes-row-1 .off-road-tour {
+      background-image: url(./imgs/offroad.jpg);
+      height: 13vw;
+      margin-left: 13px;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      -webkit-box-flex: 2;
+          -ms-flex-positive: 2;
+              flex-grow: 2;
+      -ms-flex-preferred-size: 0;
+          flex-basis: 0; }
+      .route .routes-row-1 .off-road-tour .layer span {
+        color: #fff;
+        background-color: #03b2a1;
+        position: relative;
+        top: 30px;
+        padding: 6px;
+        padding-left: 20px;
+        padding-right: 20px; }
+      .route .routes-row-1 .off-road-tour .layer .flexo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        height: 100%;
+        position: relative;
+        top: -25px; }
+      .route .routes-row-1 .off-road-tour .layer div {
+        color: #fff;
+        margin: 0 auto;
+        font-size: 30px; }
+  .route .routes-row-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .route .routes-row-2 .new-york-tour {
+      background-image: url(./imgs/newyork.jpg);
+      height: 15vw;
+      margin-right: 15px;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      -webkit-box-flex: 2;
+          -ms-flex-positive: 2;
+              flex-grow: 2;
+      -ms-flex-preferred-size: 0;
+          flex-basis: 0; }
+      .route .routes-row-2 .new-york-tour .layer span {
+        color: #fff;
+        background-color: #03b2a1;
+        position: relative;
+        top: 30px;
+        padding: 6px;
+        padding-left: 20px;
+        padding-right: 20px; }
+      .route .routes-row-2 .new-york-tour .layer .flexo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        height: 100%;
+        position: relative;
+        top: -25px; }
+      .route .routes-row-2 .new-york-tour .layer div {
+        color: #fff;
+        margin: 0 auto;
+        font-size: 30px; }
+    .route .routes-row-2 .golden-gate-tour {
+      background-image: url(./imgs/goldengate.jpg);
+      height: 15vw;
+      margin-left: 15px;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      -webkit-box-flex: 2;
+          -ms-flex-positive: 2;
+              flex-grow: 2;
+      -ms-flex-preferred-size: 0;
+          flex-basis: 0; }
+      .route .routes-row-2 .golden-gate-tour .layer span {
+        color: #fff;
+        background-color: #03b2a1;
+        position: relative;
+        top: 30px;
+        padding: 6px;
+        padding-left: 20px;
+        padding-right: 20px; }
+      .route .routes-row-2 .golden-gate-tour .layer .flexo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        height: 100%;
+        position: relative;
+        top: -25px; }
+      .route .routes-row-2 .golden-gate-tour .layer div {
+        color: #fff;
+        margin: 0 auto;
+        font-size: 30px; }
+
+.layer {
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.repair {
+  height: 45vh;
+  background-image: url(./imgs/lineup.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+  .repair .container {
+    position: relative;
+    top: 120px;
+    z-index: 19; }
+  .repair h2 {
+    color: #fff; }
+  .repair p {
+    color: #fff; }
+  .repair button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .repair .btn {
+    background-color: #03b2a1;
+    border: none;
+    border-radius: 0; }
+  .repair .btn:focus {
+    outline: none !important; }
+
+.layer2 {
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: -168px;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/*# sourceMappingURL=index.css.map */
