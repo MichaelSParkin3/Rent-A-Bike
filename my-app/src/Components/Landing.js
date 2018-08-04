@@ -106,6 +106,21 @@ export default class Landing extends Component {
           </div>
           <div className="layer2" />
         </div>
+        <div className="news">
+          <div className="route-title">
+            <h2 className="text-center">Latest News</h2>
+            <div className="border text-center" />
+          </div>
+          <button type="button" className="btn btn-dark">
+            View All News
+          </button>
+        </div>
+        <div className="campaign">
+          <h2>Take Part in the Discount Campaign</h2>
+          <button type="button" className="btn btn-dark">
+            Get Started
+          </button>
+        </div>
       </div>
     );
   }

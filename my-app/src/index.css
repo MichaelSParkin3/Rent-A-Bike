@@ -17,8 +17,10 @@
   .hero h1 {
     color: #fff;
     font-size: 99px;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif; }
   .hero h4 {
+    font-family: 'Roboto', sans-serif;
     color: #fff; }
 
 .dimmed {
@@ -41,6 +43,10 @@
   background-color: transparent !important; }
   .nav-div nav .active {
     background-color: #03b2a1 !important; }
+  .nav-div nav .navbar-brand {
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: 700; }
   .nav-div nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -52,6 +58,7 @@
     margin-left: auto;
     width: 70%; }
     .nav-div nav ul li {
+      font-family: 'Rubik', sans-serif;
       text-align: right; }
   .nav-div nav a {
     color: #fff !important;
@@ -71,7 +78,11 @@
     width: 20%; }
   .about h2,
   .about h5 {
-    color: #fff; }
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600; }
+  .about h2 {
+    font-size: 50px; }
   .about .border {
     margin-top: 20px;
     width: 40px;
@@ -110,11 +121,14 @@
     margin-bottom: 15px; }
   .about p {
     width: 100%;
-    color: #fff; }
+    color: #fff;
+    font-family: 'Roboto', sans-serif; }
 
 .route {
+  background-color: #f7f7f7;
   padding-top: 80px;
   padding-bottom: 80px;
+  font-family: 'Rubik', sans-serif;
   padding-left: 19%;
   padding-right: 19%; }
   .route button {
@@ -138,8 +152,10 @@
     border-width: 2px !important;
     margin-top: 20px;
     margin-bottom: 50px; }
-  .route .route-title {
-    color: #1e1e1e; }
+  .route .route-title h2 {
+    font-size: 50px;
+    color: #1e1e1e !important;
+    font-weight: 700 !important; }
   .route .routes-row-1 {
     margin-bottom: 26px;
     display: -webkit-box;
@@ -182,7 +198,8 @@
       .route .routes-row-1 .mountain-tour .layer div {
         color: #fff;
         margin: 0 auto;
-        font-size: 30px; }
+        font-size: 30px;
+        font-weight: 600; }
     .route .routes-row-1 .off-road-tour {
       background-image: url(./imgs/offroad.jpg);
       height: 13vw;
@@ -217,7 +234,8 @@
       .route .routes-row-1 .off-road-tour .layer div {
         color: #fff;
         margin: 0 auto;
-        font-size: 30px; }
+        font-size: 30px;
+        font-weight: 600; }
   .route .routes-row-2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -259,7 +277,8 @@
       .route .routes-row-2 .new-york-tour .layer div {
         color: #fff;
         margin: 0 auto;
-        font-size: 30px; }
+        font-size: 30px;
+        font-weight: 600; }
     .route .routes-row-2 .golden-gate-tour {
       background-image: url(./imgs/goldengate.jpg);
       height: 15vw;
@@ -294,7 +313,8 @@
       .route .routes-row-2 .golden-gate-tour .layer div {
         color: #fff;
         margin: 0 auto;
-        font-size: 30px; }
+        font-size: 30px;
+        font-weight: 600; }
 
 .layer {
   background: rgba(0, 0, 0, 0.5);
@@ -315,9 +335,14 @@
     top: 120px;
     z-index: 19; }
   .repair h2 {
-    color: #fff; }
+    font-weight: 600;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif; }
   .repair p {
-    color: #fff; }
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Roboto', sans-serif; }
   .repair button {
     margin: 0 auto;
     display: block;
@@ -335,9 +360,69 @@
 .layer2 {
   background: rgba(0, 0, 0, 0.5);
   position: relative;
-  top: -168px;
+  top: -190px;
   left: 0;
   width: 100%;
   height: 100%; }
+
+.btn {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700; }
+
+.news {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .news .route-title h2 {
+    font-weight: 600;
+    font-size: 50px;
+    color: #1e1e1e;
+    font-family: 'Rubik', sans-serif; }
+  .news .route-title .border {
+    margin-top: 20px;
+    width: 40px;
+    margin: 0 auto;
+    border-color: #1e1e1e !important;
+    border-width: 2px !important;
+    margin-top: 20px;
+    margin-bottom: 50px; }
+  .news button {
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .news .btn {
+    background-color: #03b2a1;
+    border: none;
+    border-radius: 0; }
+  .news .btn:focus {
+    outline: none !important; }
+
+.campaign {
+  background-color: #03b2a1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 19%;
+  padding-right: 19%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .campaign h2 {
+    font-size: 50px;
+    color: #fff; }
+  .campaign button {
+    background-color: #fff;
+    padding: 8px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: #03b2a1; }
+  .campaign .btn {
+    border: none;
+    border-radius: 0; }
+  .campaign .btn:focus {
+    outline: none !important; }
 
 /*# sourceMappingURL=index.css.map */
