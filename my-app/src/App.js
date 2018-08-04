@@ -14,6 +14,7 @@ class App extends Component {
     return (
       <Router>
         <div>
+          <Redirect from={process.env.PUBLIC_URL + '/'} to="landing" />
           <Route
             path={process.env.PUBLIC_URL + '/landing'}
             render={() => <Landing ref={this.child} />}

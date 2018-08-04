@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
+import News from './News';
 
 export default class Landing extends Component {
   render() {
@@ -57,7 +58,7 @@ export default class Landing extends Component {
             <div className="border text-center" />
           </div>
           <div className="routes-row-1">
-            <div className="mountain-tour">
+            <div className="mountain-tour hvr-bounce-in">
               <div className="layer">
                 <span>$26.00/pers.</span>
                 <div className="text-center flexo">
@@ -65,7 +66,8 @@ export default class Landing extends Component {
                 </div>
               </div>
             </div>
-            <div className="off-road-tour">
+
+            <div className="off-road-tour hvr-bounce-in">
               <div className="layer">
                 <span>$26.00/pers.</span>
                 <div className="text-center flexo">
@@ -75,7 +77,7 @@ export default class Landing extends Component {
             </div>
           </div>
           <div className="routes-row-2">
-            <div className="new-york-tour">
+            <div className="new-york-tour hvr-bounce-in">
               <div className="layer">
                 <span>$26.00/pers.</span>
                 <div className="text-center flexo">
@@ -83,7 +85,7 @@ export default class Landing extends Component {
                 </div>
               </div>
             </div>
-            <div className="golden-gate-tour">
+            <div className="golden-gate-tour hvr-bounce-in">
               <div className="layer">
                 <span>$26.00/pers.</span>
                 <div className="text-center flexo">
@@ -92,7 +94,7 @@ export default class Landing extends Component {
               </div>
             </div>
           </div>
-          <button type="button" className="btn btn-dark">
+          <button type="button" className="btn btn-dark hvr-buzz">
             View All Routes
           </button>
         </div>
@@ -100,7 +102,7 @@ export default class Landing extends Component {
           <div className="container">
             <h2 className="text-center">Need to Get Your Bicycle Fixed?</h2>
             <p className="text-center">We will do it!</p>
-            <button type="button" className="btn btn-dark">
+            <button type="button" className="btn btn-dark hvr-buzz">
               Book Now
             </button>
           </div>
@@ -111,13 +113,14 @@ export default class Landing extends Component {
             <h2 className="text-center">Latest News</h2>
             <div className="border text-center" />
           </div>
-          <button type="button" className="btn btn-dark">
+          <News />
+          <button type="button" className="btn btn-dark hvr-buzz">
             View All News
           </button>
         </div>
         <div className="campaign">
           <h2>Take Part in the Discount Campaign</h2>
-          <button type="button" className="btn btn-dark">
+          <button type="button" className="btn btn-dark hvr-buzz">
             Get Started
           </button>
         </div>

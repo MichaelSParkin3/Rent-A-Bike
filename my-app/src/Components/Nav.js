@@ -5,11 +5,11 @@ export default class Nav extends Component {
     return (
       <div className="nav-div">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand hvr-grow" href="#">
             Rent a Bike
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -22,27 +22,27 @@ export default class Nav extends Component {
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+              <li class="nav-item active hvr-grow">
                 <a class="nav-link active" href="#">
                   Home <span class="sr-only">(current)</span>
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item hvr-grow">
                 <a class="nav-link" href="#">
                   About
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item hvr-grow">
                 <a class="nav-link" href="#">
                   Bike Tours
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item hvr-grow">
                 <a class="nav-link" href="#">
                   Bike Rentals
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item hvr-grow">
                 <a class="nav-link" href="#">
                   Pricing
                 </a>
