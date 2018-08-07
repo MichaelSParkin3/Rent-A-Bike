@@ -256,8 +256,8 @@
             justify-content: space-between; }
     .route .routes-row-1 .mountain-tour {
       background-image: url(./imgs/mountain.jpg);
-      height: 13vw;
-      margin-right: 13px;
+      height: 15vw;
+      margin-right: 15px;
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
@@ -292,8 +292,8 @@
         font-weight: 600; }
     .route .routes-row-1 .off-road-tour {
       background-image: url(./imgs/offroad.jpg);
-      height: 13vw;
-      margin-left: 13px;
+      height: 15vw;
+      margin-left: 15px;
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
@@ -543,5 +543,97 @@
 
 .btn:hover {
   background-color: #1e1e1e; }
+
+@media screen and (max-width: 1200px) {
+  .nav-div nav ul {
+    width: 80%; }
+
+  .hero h1 {
+    font-size: 70px; }
+  .hero h4 {
+    font-size: 20px; }
+
+  .about .about-card {
+    width: 100%;
+    padding: 10%; }
+  .about .about-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .route .routes-row-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0; }
+  .route .routes-row-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .route .mountain-tour,
+  .route .off-road-tour,
+  .route .new-york-tour,
+  .route .golden-gate-tour {
+    height: 20vw !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 40px !important; }
+
+  .news .card-deck {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .news .card-deck .card {
+      margin-bottom: 60px; } }
+@media screen and (max-width: 991px) {
+  .layer2 {
+    top: -250px; } }
+@media screen and (max-width: 900px) {
+  .campaign button {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px; }
+  .campaign h2 {
+    font-size: 30px; }
+
+  .hero h1 {
+    font-size: 50px; }
+  .hero h4 {
+    font-size: 15px; }
+
+  .route .mountain-tour,
+  .route .off-road-tour,
+  .route .new-york-tour,
+  .route .golden-gate-tour {
+    height: 40vw !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 40px !important; } }
+@media screen and (max-width: 438px) {
+  .layer2 {
+    top: -310px; } }
+@media screen and (max-width: 600px) {
+  .repair {
+    display: none; }
+
+  .route .mountain-tour .flexo div,
+  .route .off-road-tour .flexo div,
+  .route .new-york-tour .flexo div,
+  .route .golden-gate-tour .flexo div {
+    font-size: 20px !important;
+    margin-top: 20px !important; }
+
+  .about h2 {
+    font-size: 30px; }
+
+  .nav-div nav {
+    width: 100%;
+    margin: 0; }
+    .nav-div nav ul {
+      background-color: #323232; } }
 
 /*# sourceMappingURL=index.css.map */

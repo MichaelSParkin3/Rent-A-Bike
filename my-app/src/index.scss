@@ -275,8 +275,8 @@ $not-black: #1e1e1e;
     justify-content: space-between;
     .mountain-tour {
       background-image: url(./imgs/mountain.jpg);
-      height: 13vw;
-      margin-right: 13px;
+      height: 15vw;
+      margin-right: 15px;
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
@@ -310,8 +310,8 @@ $not-black: #1e1e1e;
     }
     .off-road-tour {
       background-image: url(./imgs/offroad.jpg);
-      height: 13vw;
-      margin-left: 13px;
+      height: 15vw;
+      margin-left: 15px;
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
@@ -587,4 +587,126 @@ $not-black: #1e1e1e;
 
 .btn:hover {
   background-color: $not-black;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-div nav ul {
+    width: 80%;
+  }
+  .hero {
+    h1 {
+      font-size: 70px;
+    }
+    h4 {
+      font-size: 20px;
+    }
+  }
+  .about {
+    .about-card {
+      width: 100%;
+      padding: 10%;
+    }
+    .about-info {
+      flex-direction: column;
+    }
+  }
+  .route {
+    .routes-row-1 {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+    .routes-row-2 {
+      flex-direction: column;
+    }
+    .mountain-tour,
+    .off-road-tour,
+    .new-york-tour,
+    .golden-gate-tour {
+      height: 20vw !important;
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+      margin-bottom: 40px !important;
+    }
+  }
+  .news {
+    .card-deck {
+      flex-direction: column;
+      .card {
+        margin-bottom: 60px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .layer2 {
+    top: -250px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .campaign {
+    button {
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-left: 10px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+  }
+  .hero {
+    h1 {
+      font-size: 50px;
+    }
+    h4 {
+      font-size: 15px;
+    }
+  }
+  .route {
+    .mountain-tour,
+    .off-road-tour,
+    .new-york-tour,
+    .golden-gate-tour {
+      height: 40vw !important;
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+      margin-bottom: 40px !important;
+    }
+  }
+}
+@media screen and (max-width: 438px) {
+  .layer2 {
+    top: -310px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .repair {
+    display: none;
+  }
+  .route {
+    .mountain-tour,
+    .off-road-tour,
+    .new-york-tour,
+    .golden-gate-tour {
+      .flexo {
+        div {
+          font-size: 20px !important;
+          margin-top: 20px !important;
+        }
+      }
+    }
+  }
+  .about {
+    h2 {
+      font-size: 30px;
+    }
+  }
+  .nav-div {
+    nav {
+      width: 100%;
+      margin: 0;
+      ul {
+        background-color: #323232;
+      }
+    }
+  }
 }
