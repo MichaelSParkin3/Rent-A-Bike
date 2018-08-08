@@ -1,5 +1,15 @@
+/*
+Colors Start
+*/
+
 $mint: #03b2a1;
 $not-black: #1e1e1e;
+
+/*
+Colors End
+*/
+
+/* ANIMATIONS START */
 
 /* Buzz */
 @-webkit-keyframes hvr-buzz {
@@ -92,6 +102,10 @@ $not-black: #1e1e1e;
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
+/* ANIMATIONS END */
+
+/* HEADER & NAV START */
+
 .bike-bg {
   width: 100%;
   height: 100vh;
@@ -163,10 +177,14 @@ $not-black: #1e1e1e;
   }
 }
 
+/* HEADER AND NAV END */
+
 .landing-container {
   margin-left: 19%;
   margin-right: 19%;
 }
+
+/* ABOUT START */
 
 .about {
   background-color: #262626;
@@ -225,6 +243,10 @@ $not-black: #1e1e1e;
     font-family: 'Roboto', sans-serif;
   }
 }
+
+/* ABOUT END */
+
+/* ROUTES START */
 
 .route {
   .overflow {
@@ -429,6 +451,10 @@ $not-black: #1e1e1e;
   height: 100%;
 }
 
+/* ROUTES END */
+
+/* REPAIR START */
+
 .repair {
   height: 45vh;
   background-image: url(./imgs/lineup.jpg);
@@ -522,6 +548,10 @@ $not-black: #1e1e1e;
   }
 }
 
+/* REPAIR END */
+
+/* CAMPAIGN START */
+
 .campaign {
   background-color: $mint;
   display: flex;
@@ -549,6 +579,10 @@ $not-black: #1e1e1e;
     outline: none !important;
   }
 }
+
+/* CAMPAIGN END */
+
+/* NEWS START */
 
 .news {
   padding-left: 19%;
@@ -585,9 +619,13 @@ $not-black: #1e1e1e;
   }
 }
 
+/* NEWS END */
+
 .btn:hover {
   background-color: $not-black;
 }
+
+/* RESPONSIVE */
 
 @media screen and (max-width: 1200px) {
   .nav-div nav ul {
@@ -640,6 +678,9 @@ $not-black: #1e1e1e;
 @media screen and (max-width: 991px) {
   .layer2 {
     top: -250px;
+  }
+  .navbar-nav .nav-link {
+    margin-right: 20px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -708,5 +749,10 @@ $not-black: #1e1e1e;
         background-color: #323232;
       }
     }
+  }
+}
+@media screen and (max-width: 289px) {
+  .dimmed {
+    height: 102%;
   }
 }

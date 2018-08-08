@@ -1,3 +1,8 @@
+/*
+Nav Component:
+Simple Nav designed to be at the top of all site pages.
+*/
+
 import React, { Component } from 'react';
 
 export default class Nav extends Component {

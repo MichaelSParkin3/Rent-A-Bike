@@ -1,3 +1,13 @@
+/*
+Landing Component:
+Landing page for online bike rental service.
+-info section
+-services section
+-repair section
+-blog news section
+-campaign section
+*/
+
 import React, { Component } from 'react';
 import Nav from './Nav';
 import News from './News';

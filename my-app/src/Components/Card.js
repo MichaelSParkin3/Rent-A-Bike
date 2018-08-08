@@ -1,3 +1,8 @@
+/*
+Card Component:
+Content empty component to be filled with data from JSON and posted in News Container
+*/
+
 import React, { Component } from 'react';
 
 export default class News extends Component {

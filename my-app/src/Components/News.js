@@ -1,6 +1,12 @@
+/*
+News Component:
+Component that generates Card Components filled with data from JSON and showcases them in a container.
+*/
+
 import React, { Component } from 'react';
 import Card from './Card';
 
+//Dummy JSON data
 var newsJSON = [
   {
     id: '1',
